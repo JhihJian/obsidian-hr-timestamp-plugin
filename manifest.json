@@ -3,7 +3,7 @@
   "name": "HR Timestamp",
   "version": "0.1.0",
   "minAppVersion": "1.5.0",
-  "description": "Converts long dashed divider input into a standard horizontal rule followed by an italic timestamp.",
+  "description": "Converts long dashed divider input into timestamped dividers in Reading view and Live Preview.",
   "author": "JhihJian",
   "authorUrl": "https://github.com/JhihJian",
   "isDesktopOnly": false
