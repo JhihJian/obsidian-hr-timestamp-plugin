@@ -1,0 +1,41 @@
+.markdown-preview-view .hr-timestamp-divider,
+.markdown-rendered .hr-timestamp-divider,
+.cm-editor .hr-timestamp-divider {
+  align-items: center;
+  color: var(--text-muted);
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 1.25rem 0;
+}
+
+.markdown-preview-view .hr-timestamp-divider::before,
+.markdown-preview-view .hr-timestamp-divider::after,
+.markdown-rendered .hr-timestamp-divider::before,
+.markdown-rendered .hr-timestamp-divider::after,
+.cm-editor .hr-timestamp-divider::before,
+.cm-editor .hr-timestamp-divider::after {
+  background: var(--background-modifier-border);
+  content: "";
+  flex: 1 1 0;
+  height: 1px;
+  min-width: 2rem;
+}
+
+.markdown-preview-view .hr-timestamp-label,
+.markdown-rendered .hr-timestamp-label,
+.cm-editor .hr-timestamp-label {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  color: var(--text-muted);
+  font-size: 0.78em;
+  font-style: normal;
+  line-height: 1.8;
+  padding: 0 0.65em;
+  white-space: nowrap;
+}
+
+.cm-editor .hr-timestamp-live-divider {
+  width: 100%;
+}
