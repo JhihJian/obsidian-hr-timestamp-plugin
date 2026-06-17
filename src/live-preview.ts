@@ -18,11 +18,12 @@ class TimestampDividerWidget extends WidgetType {
     return other instanceof TimestampDividerWidget && other.timestamp === this.timestamp;
   }
 
-  toDOM(): HTMLElement {
-    const wrapper = document.createElement("span");
+  toDOM(view: EditorView): HTMLElement {
+    const ownerDocument = view.dom.ownerDocument;
+    const wrapper = ownerDocument.createElement("span");
     wrapper.className = "hr-timestamp-divider hr-timestamp-live-divider";
 
-    const label = document.createElement("span");
+    const label = ownerDocument.createElement("span");
     label.className = "hr-timestamp-label";
     label.textContent = this.timestamp;
 
