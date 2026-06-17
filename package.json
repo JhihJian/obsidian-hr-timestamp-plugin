@@ -1,6 +1,6 @@
 {
   "name": "obsidian-hr-timestamp-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert long dashed divider input into a standard horizontal rule with a timestamp in Obsidian.",
   "main": "main.js",
   "scripts": {
@@ -16,6 +16,8 @@
   "author": "JhihJian",
   "license": "MIT",
   "devDependencies": {
+    "@emnapi/core": "1.11.1",
+    "@emnapi/runtime": "1.11.1",
     "@types/node": "^25.9.3",
     "builtin-modules": "^5.0.0",
     "esbuild": "0.28.1",
